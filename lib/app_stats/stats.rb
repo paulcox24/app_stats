@@ -16,8 +16,8 @@ module AppStats
     def self.get_has_many_relationships
       get_raw(HAS_MANY_SEARCH).split("\n")
     end
-    
-    def get_has_many_assocations(options={})
+
+    def self.get_has_many_assocations(options={})
       ul(AppStats::Stats.get_has_many_relationships, options)
     end
 
