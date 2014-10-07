@@ -22,7 +22,7 @@ module AppStats
     end
 
     # http://qerub.se/list-helper-for-rails
-    def html_list(type, elements, options = {})
+    def self.html_list(type, elements, options = {})
       if elements.empty?
         "" 
       else
@@ -31,11 +31,11 @@ module AppStats
       end
     end
 
-    def ul(*args)
+    def self.ul(*args)
       html_list("ul", *args)
     end
 
-    def ol(*args)
+    def self.ol(*args)
       html_list("ol", *args)
     end
   end
