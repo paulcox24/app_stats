@@ -7,11 +7,11 @@ require "app_stats/version"
 Gem::Specification.new do |s|
   s.name        = "app_stats"
   s.version     = AppStats::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of AppStats."
-  s.description = "TODO: Description of AppStats."
+  s.authors     = ["Paul Cox"]
+  s.email       = ["paulcox24@gmail.com"]
+  s.homepage    = "https://github.com/paulcox24"
+  s.summary     = "AppStats -- Get some stats on your rails app"
+  s.description = "Uses some shell commands and pipe to get stats on your code."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
