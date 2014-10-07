@@ -1,7 +1,6 @@
 require 'app_stats/stats'
 
 module AppStats
-  module Stats
 
     #Sort the Ruby files in your project by number of has_many
     PIPE_MINUS_COVERAGE = '| grep -v "coverage"'
@@ -23,5 +22,4 @@ module AppStats
       # Returns a string with lines of code"
       get_raw(LINES_OF_CODE_SEARCH).strip
     end
-  end
 end
