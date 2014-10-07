@@ -10,7 +10,6 @@ module AppStats
     HAS_MANY_SEARCH = "ack \" has_many \" -c | awk -F \":\" '{print $2,$1}' | grep -v \"0\" #{PIPE_MINUS_COVERAGE} #{PIPE_MINUS_CURRENT_FILE} | sort -rn"
 
     def self.get_raw(command)
-      # ["3 app/models/user.rb", "3 app/models/project.rb"]
       `#{command}`
     end
 
