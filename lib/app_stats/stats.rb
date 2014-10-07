@@ -1,4 +1,4 @@
-require 'app_stats/stats'
+require 'app_stats'
 
 module AppStats
 
