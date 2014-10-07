@@ -1,3 +1,5 @@
+require 'app_stats/stats'
+
 module AppStats
   module Stats
 
